@@ -1,0 +1,81 @@
+% Page dimensions
+\usepackage[letterpaper, margin=1in]{geometry}
+
+% For line spacing
+%\usepackage{setspace}
+
+\usepackage{titlesec}
+
+\usepackage{xcolor}
+
+% Allows `noitemsep` in itemize environments.
+\usepackage{enumitem}
+
+\titleformat
+    {\section}
+    {\mdseries\large\scshape}
+    {}
+    {0em}
+    {\color[HTML]{801010}}
+    [\vspace{-1pt}{\titlerule[1pt]}]
+
+\newenvironment
+    {experiencelist}
+    {
+        \raggedright
+        \newcommand\experienceitem
+            [3]
+            {
+                \raggedright
+                \large\textbf{##1}\hspace*{\fill}\normalsize##3\\
+                \normalsize\textit{##2}\\
+            }
+    }
+    {}
+
+\newenvironment
+    {experiencesublist}
+    {
+
+    }
+    {\vspace{12pt}\newline}
+
+\newenvironment
+    {educationlist}
+    {
+        \renewcommand\item
+            [4]
+            {
+                \raggedright
+                \large##1, ##2\normalsize\hspace*{\fill}##4\\
+                \textit{##3}\\
+            }
+    }
+    {}
+
+\newenvironment
+    {awardlist}
+    {
+        \renewcommand\item
+            [3]
+            {
+                \large\raggedright
+                \noindent\textbf{##1}\normalsize\hspace*{\fill}##3\\
+                \textit{##2}\\[6pt]
+            }
+    }
+    {}
+
+\newenvironment
+    {projectlist}
+    {
+        \newcommand\projectitem
+            [2]
+            {
+                \large\raggedright
+                \noindent\textbf{##1}\normalsize\hspace*{\fill}##2\\
+            }
+    }
+    {}
+
+\thispagestyle{empty}
