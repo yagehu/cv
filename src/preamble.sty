@@ -11,6 +11,8 @@
 % Allows `noitemsep` in itemize environments.
 \usepackage{enumitem}
 
+\usepackage[compact]{titlesec}
+
 \titleformat
     {\section}
     {\mdseries\large\scshape}
@@ -18,6 +20,8 @@
     {0em}
     {\color[HTML]{801010}}
     [\vspace{-1pt}{\titlerule[1pt]}]
+
+\titlespacing*{\section} {0pt}{2.5ex plus 1ex minus 1ex}{1.3ex plus .2ex}
 
 \newenvironment
     {experiencelist}
