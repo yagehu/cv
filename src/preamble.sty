@@ -47,12 +47,13 @@
 \newenvironment
     {educationlist}
     {
-        \renewcommand\item
+        \renewcommand\educationitem
             [4]
             {
                 \raggedright
                 \large##1, ##2\normalsize\hspace*{\fill}##4\\
                 \textit{##3}\\
+                [6pt]
             }
     }
     {}
