@@ -1,0 +1,9 @@
+- degree: Ph.D.
+  major: Computer Science
+  institution: University of Georgia
+  date: { year: 2028, month: 6 }
+  advisor: Wenwen Wang
+- degree: B.S.
+  major: Electrical Engineering and Computer Engineering
+  institution: University of California, Davis
+  date: { year: 2017, month: 6 }

@@ -1,0 +1,40 @@
+- title: PhD Software Engineer Intern
+  org: Google
+  start: { year: 2025, month: 5, day: 11 }
+  end: { year: 2025, month: 7, day: 31 }
+  resume: true
+  detail:
+    - Implement first-party FreeBSD OS support for Google Cloud Platform.
+    - Lead intern team to AI2 Intern Hackathon 1st place with \$5500 prize.
+- title: Founding Engineer
+  org: Abbey Labs
+  start: { year: 2022, month: 7, day: 25 }
+  end: { year: 2023, month: 4, day: 14 }
+  resume: true
+  detail:
+    - Bootstrap the infrastructure to host complex data ingestion and workflow workloads.
+    - Rapidly prototype software to find product market fit.
+- title: Software Engineer
+  org: Meta
+  start: { year: 2021, month: 10, day: 12 }
+  end: { year: 2022, month: 7, day: 22 }
+  resume: true
+  detail:
+    - Implement Android camera hardware abstraction layer (HAL) for AR/VR products.
+    - Develop Linux/Android native system services in C++ to support AR/VR use cases.
+- title: Software Engineer
+  org: Amazon
+  start: { year: 2020, month: 11, day: 30 }
+  end: { year: 2021, month: 9, day: 20 }
+  resume: true
+  detail:
+    - |
+      Implement and maintain a specialized workflow orchestration platform in
+      Kotlin/Java to support Amazon Prime.
+- title: Software Engineer
+  org: Uber
+  start: { year: 2019, month: 3, day: 18 }
+  end: { year: 2020, month: 11, day: 12 }
+  resume: true
+  detail:
+    - Migrate a Python backend service to a gRPC Go service resulting in 30x speedup.

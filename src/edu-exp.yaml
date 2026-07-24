@@ -1,0 +1,13 @@
+- title: Research Assistant
+  org: University of Georgia, School of Computing
+  start: { year: 2025, month: 8 }
+  detail: []
+- title: Teaching Assistant
+  org: University of Georgia, School of Computing
+  start: { year: 2024, month: 8 }
+  end: { year: 2025, month: 8 }
+  detail:
+    - "Fall 2024: CSCI 1301 Introduction to Computing and Programming"
+    - "Spring 2025: CSCI 2720 Data Structures"
+    - "Summer 2025: CSCI 1301 Introduction to Computing and Programming"
+    - "Fall 2025: CSCI 1301 Introduction to Computing and Programming"

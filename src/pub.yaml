@@ -1,0 +1,14 @@
+- title: "WASIT: Deep and Continuous Differential Testing of WebAssembly System Interface Implementations"
+  type: conference
+  authors:
+    - name: Yage Hu
+      self: true
+    - name: Wen Zhang
+    - name: Botang Xiao
+    - name: Qingchen Kong
+    - name: Boyang Yi
+    - name: Suxin Ji
+    - name: Songlan Wang
+    - name: Wenwen Wang
+  url: "https://doi.org/10.1145/3731569.3764819"
+  conference: "SOSP '25: Proceedings of the ACM SIGOPS 31st Symposium on Operating Systems Principles"
